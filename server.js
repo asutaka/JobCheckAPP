@@ -1,4 +1,4 @@
-const { CheckDomain } = require('./cronjob.js');
+const { CheckDomainMain, CheckDomain1, CheckDomain2, CheckDomain3, CheckDomain4 } = require('./cronjob.js');
 const express = require('express');
 
 const app = express();
@@ -8,4 +8,8 @@ app.get('/', async (req, res)  => {
 })
 app.listen(PORT, () => console.log('server running!'));
 
-CheckDomain();
+CheckDomainMain();
+CheckDomain1();
+CheckDomain2();
+CheckDomain3();
+CheckDomain4();
