@@ -16,10 +16,10 @@ app.get('/', async (req, res)  => {
 app.listen(PORT, () => console.log('server running!'));
 
 CheckDomain1();
-CheckDomain2();
-CheckDomain3();
-CheckDomain4();
-CheckDomain5();
-CheckDomain6();
-CheckDomain7();
-CheckDomain8();
+// CheckDomain2();
+// CheckDomain3();
+// CheckDomain4();
+// CheckDomain5();
+// CheckDomain6();
+// CheckDomain7();
+// CheckDomain8();
